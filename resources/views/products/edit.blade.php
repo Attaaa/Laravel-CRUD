@@ -32,13 +32,13 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Name:</strong>
-                <input type="text" name="name" value="{{ $product->name }}" placeholder="Name">
+                <input type="text" name="name" value="{{ $product->name }}" placeholder="Name" class="form-control">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Detail:</strong>
-                <textarea name="detail" style="height: 150px" placeholder="Detail" class="form-control">    </textarea>
+                <textarea name="detail" style="height: 150px" placeholder="Detail" class="form-control">{{ $product->detail }}</textarea>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">

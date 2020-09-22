@@ -12,7 +12,7 @@
 <body>
   
 
-    <div class="container">
+    <div class="container" style="margin-top: 50px">
 
         @yield('content')
 
